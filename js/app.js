@@ -1,1 +1,0 @@
-const envelope = document.getElementById("envelope");

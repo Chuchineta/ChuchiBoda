@@ -3,74 +3,81 @@
 
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Dani & Belén</title>
+    <title>Daniel & Belén</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="paper"></div>
+<div class="background"></div>
 
-<main class="hero">
+<section class="hero">
 
-    <p class="tap">
-        Pulsa el sobre
+    <p class="instruction">
+        Pulsa el sobre para abrir la invitación
     </p>
 
-    <div class="envelope" id="envelope">
+    <div class="scene">
 
-        <!-- Carta -->
+        <div class="envelope" id="envelope">
 
-        <div class="letter">
+            <!-- CARTA -->
 
-            <div class="letter-content">
+            <div class="letter">
 
-                <h1>Dani</h1>
+                <div class="letter-inner">
 
-                <div class="ampersand">&</div>
+                    <h1>Daniel</h1>
 
-                <h1>Belén</h1>
+                    <div class="and">&</div>
+
+                    <h1>Belén</h1>
+
+                    <p class="subtitle">
+                        Nos casamos
+                    </p>
+
+                </div>
+
+            </div>
+
+            <!-- PARTE TRASERA -->
+
+            <div class="back"></div>
+
+            <!-- SOLAPA -->
+
+            <div class="flap"></div>
+
+            <!-- FRENTE -->
+
+            <div class="front"></div>
+
+            <!-- LACRE -->
+
+            <div class="seal">
+
+                DB
 
             </div>
 
         </div>
 
-        <!-- Parte trasera -->
-
-        <div class="back"></div>
-
-        <!-- Solapa -->
-
-        <div class="flap"></div>
-
-        <!-- Frente -->
-
-        <div class="front"></div>
-
-        <!-- Lacre -->
-
-        <div class="seal">
-
-            DB
-
-        </div>
-
     </div>
 
-</main>
+</section>
 
-<script src="js/app.js"></script>
+<script src="app.js"></script>
 
 </body>
 
