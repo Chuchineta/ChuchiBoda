@@ -1,56 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Daniel & Belén</title>
+    <title>Daniel & Belén</title>
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cormorant+Garamond:wght@300;400;500;600&display=swap" rel="stylesheet">
 
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-<div class="container">
+<div class="background"></div>
 
-<p class="texto">
-Pulsa el sobre
-</p>
+<main class="container">
 
-<div class="envelope" id="envelope">
+    <p class="instruction">
+        Pulsa el sobre
+    </p>
 
-<div class="letter">
+    <section class="scene">
 
-<h1>Daniel</h1>
+        <div class="envelope" id="envelope">
 
-<div class="and">&</div>
+            <!-- ========================= -->
+            <!-- CARTA -->
+            <!-- ========================= -->
 
-<h1>Belén</h1>
+            <div class="letter">
 
-</div>
+                <div class="paper">
 
-<div class="back"></div>
+                    <div class="letter-content">
 
-<div class="front"></div>
+                        <h1>Daniel</h1>
 
-<div class="flap"></div>
+                        <div class="ampersand">&</div>
 
-<div class="seal">
-DB
-</div>
+                        <h1>Belén</h1>
 
-</div>
+                        <div class="divider"></div>
 
-</div>
+                        <p class="subtitle">
+                            Nos casamos
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- ========================= -->
+            <!-- PARTE TRASERA -->
+            <!-- ========================= -->
+
+            <div class="envelope-back"></div>
+
+            <!-- ========================= -->
+            <!-- BOLSILLO DEL SOBRE -->
+            <!-- ========================= -->
+
+            <div class="envelope-pocket">
+
+                <div class="pocket-left"></div>
+
+                <div class="pocket-right"></div>
+
+                <div class="pocket-bottom"></div>
+
+            </div>
+
+            <!-- ========================= -->
+            <!-- SOLAPA -->
+            <!-- ========================= -->
+
+            <div class="flap"></div>
+
+            <!-- ========================= -->
+            <!-- LACRE -->
+            <!-- ========================= -->
+
+            <div class="seal">
+
+                <span>DB</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
 
 <script src="app.js"></script>
 
 </body>
+
 </html>
