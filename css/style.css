@@ -1,1 +1,195 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+
+    overflow:hidden;
+
+    font-family:'Cormorant Garamond',serif;
+
+    background:#f8f4ef;
+
+    height:100vh;
+
+}
+
+.background{
+
+    position:fixed;
+
+    inset:0;
+
+    background:
+
+    radial-gradient(circle at top,#ffffff,#f7f2ea);
+
+}
+
+.wrapper{
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    height:100vh;
+
+}
+
+.hint{
+
+    letter-spacing:4px;
+
+    font-size:.9rem;
+
+    color:#8a7a69;
+
+    margin-bottom:45px;
+
+    text-transform:uppercase;
+
+}
+
+.envelope{
+
+    position:relative;
+
+    width:min(88vw,420px);
+
+    aspect-ratio:1.45;
+
+    cursor:pointer;
+
+}
+
+.front{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    background:#eadbc8;
+
+    clip-path:polygon(0 0,100% 0,100% 100%,0 100%);
+
+    border-radius:6px;
+
+    box-shadow:
+
+    0 30px 60px rgba(0,0,0,.12);
+
+}
+
+.flap{
+
+    position:absolute;
+
+    width:100%;
+    height:100%;
+
+    background:#dfc9a6;
+
+    clip-path:polygon(0 0,50% 55%,100% 0);
+
+    transform-origin:top;
+
+    z-index:8;
+
+}
+
+.seal{
+
+    position:absolute;
+
+    left:50%;
+
+    top:42%;
+
+    transform:translate(-50%,-50%);
+
+    width:70px;
+
+    height:70px;
+
+    border-radius:50%;
+
+    background:#b58d56;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:26px;
+
+    font-family:'Great Vibes',cursive;
+
+    z-index:20;
+
+    box-shadow:
+
+    0 8px 20px rgba(0,0,0,.25);
+
+}
+
+.letter{
+
+    position:absolute;
+
+    left:6%;
+
+    top:8%;
+
+    width:88%;
+
+    height:120%;
+
+    background:white;
+
+    border-radius:4px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    box-shadow:
+
+    0 20px 40px rgba(0,0,0,.12);
+
+    z-index:2;
+
+}
+
+.letter h1{
+
+    font-family:'Great Vibes';
+
+    font-size:clamp(2.5rem,8vw,5rem);
+
+    color:#5d4a3b;
+
+}
+
+.letter h2{
+
+    margin:10px 0;
+
+    color:#b58d56;
+
+    font-size:2rem;
+
+}
